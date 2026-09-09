@@ -1,0 +1,27 @@
+# environments
+.venv/
+.venv-test/
+venv/
+__pycache__/
+*.pyc
+
+# checkpoints, archives, personal/oversized documents — never committed
+*.pt
+*.pth
+*.pkl
+*.zip
+*.pdf
+*:Zone.Identifier
+
+# challenge data (not redistributable; never committed)
+data/*
+!data/README.md
+
+# model checkpoints if ever produced locally
+models/
+
+# generated outputs from running the scripts
+generated_smiles.txt
+submission.txt
+
+.DS_Store
